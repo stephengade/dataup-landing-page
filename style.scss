@@ -1,0 +1,23 @@
+@import "./variables";
+@import "./responsive";
+@import "./hero";
+@import "./features";
+@import "./cta-1";
+@import "./metrics";
+@import "./last-cta";
+@import "./footer";
+@import "./hamburger";
+
+html, body {
+    font-size: 65.5%;
+
+    body {
+    background: $background-fill;
+    user-select: none;
+    scroll-behavior: smooth;
+    }
+}
+
+
+
+

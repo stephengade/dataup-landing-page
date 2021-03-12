@@ -1,0 +1,46 @@
+// Colors
+
+$primary-color: #3056D3;
+$secondary-color: #13C296;
+$yellow-color: #F2994A;
+$neutral-color: #6D6D78;
+
+// Text colors
+
+$white-color: #ffffff;
+$text-green: #99EFD0;
+$text-white: #8476AA;
+$text-link: #B5B5B5;
+
+// Background colors
+
+$background-color-1: #3B1D60;
+$background-color-2: #040D3E;
+
+$background-fill: #0F1145;
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+// Fonts
+
+$inter: 'Inter',
+sans-serif;
+$rubik: 'Rubik',
+sans-serif;
+$gilroy: 'gilroy',
+san-serif;
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('/img/Gilroy-Light.otf') format('woff2'),
+        url('/img/Gilroy-Light.otf') format('woff'),
+        url('/img/Gilroy-Light.otf') format('truetype');
+}
+
+
+.yello-text {
+    color: $yellow-color!important;
+}

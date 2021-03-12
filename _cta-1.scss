@@ -1,0 +1,63 @@
+.cta-1, .cta-2 {
+    margin-top: 5rem;
+
+    &-text {
+        align-self: center;
+        h2 {
+            font-family: $inter;
+            font-size: 4.2rem;
+            line-height: 5rem;
+            font-weight: 700;
+            color: $text-green;
+            width: 80%;
+        }
+
+        p {
+            font-size: 1.5rem;
+            line-height: 2.8rem;
+            letter-spacing: 0.1rem;
+            font-family: $gilroy;
+            color: $text-white;
+        }
+    }
+
+.cta-btn {
+  color: #fff;
+  background-color: $yellow-color;
+  font-family: $inter;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  font-family: $gilroy;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5rem;
+}
+
+}
+
+.cta-btn-2{
+  color: #fff;
+  background-color: $yellow-color;
+  font-family: $inter;
+  outline: none;
+  border: none;
+  padding: 1.5rem;
+  font-family: $gilroy;
+  margin: 3rem auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  border-radius: .3rem;
+  z-index: 1;
+}
+
+.cta-2 {
+  margin-top: -3rem;
+     background-repeat: no-repeat;
+     background-image: url(/img/invest-img-bg.png);
+      background-position-x: 100%;
+}

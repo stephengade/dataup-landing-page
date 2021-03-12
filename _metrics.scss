@@ -1,0 +1,73 @@
+.ripple-up {
+    height: 50rem;
+    width: 20rem;
+    margin-top: -20rem;
+}
+
+.metrics {
+   margin-top: -5rem;
+    .title {
+        text-align: center;
+        font-family: $inter;
+        font-weight: 700;
+        font-size: 3.6rem;
+        line-height: 4.2rem;
+        letter-spacing: 0.03rem;
+        color: $text-green;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .sub-title {
+        font-family: $gilroy;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: center;
+        color: $text-white;
+        width: 50%;
+        margin: 2rem auto;
+        letter-spacing: 0.02rem;
+    }
+}
+
+.metrics-items {
+    .col-12 {
+        margin-bottom: 1.5rem;
+    }
+
+      h3 {
+          font-family: $inter;
+          font-weight: 700;
+          letter-spacing: 0.03rem;
+          font-size: 3.5rem;
+          color: $text-green;
+      }
+
+      p {
+          font-family: $gilroy;
+          font-size: 1.5rem;
+          letter-spacing: .02rem;
+          line-height: 2rem;
+          color: $text-white;
+      }
+}
+
+.create-project {
+   margin-top: 5rem;
+     .title {
+        text-align: center;
+        font-family: $inter;
+        font-weight: 700;
+        font-size: 3.6rem;
+        line-height: 4.2rem;
+        letter-spacing: 0.03rem;
+        color: $text-green;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+img {
+    margin-top: -10rem;
+    z-index: -1;
+}
+}

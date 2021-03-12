@@ -1,0 +1,94 @@
+footer {
+    margin-top: 7rem;
+     background-image: url(/img/footer-ripples.png);
+     background-repeat: no-repeat;
+
+    .footer-about {
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            color: $yellow-color;
+            font-weight: 700;
+            font-size: 2.6rem;
+            line-height: 3.2rem;
+            letter-spacing: 0.32px;
+            font-family: $inter;
+        }
+
+        mg {
+            a {
+                text-decoration: none;
+            }
+        }
+
+        img {
+            padding: 1rem;
+            background: #8f8c8c;
+            height: 3rem;
+            width: 3rem;
+            border-radius: 50%;
+            display: inline;
+
+            &:hover {
+                background: $yellow-color;
+            }
+            
+        }
+    }
+}
+
+footer {
+    .row {
+ margin-top: 5rem;
+
+     h2 {
+         font-family: $inter;
+         font-weight: 700;
+         font-size: 1.8rem;
+         letter-spacing: 0.2px;
+         line-height: 1.8rem;
+         color: #fff;
+         //text-align: center;
+     }
+
+     ul { 
+  margin-bottom: 3rem;
+
+         li {
+             list-style: none;
+         }
+
+         a {
+         font-family: $inter;
+         font-size: 1.6rem;
+         letter-spacing: 0.2px;
+         line-height: 2.4rem;
+         font-weight: 400;
+         color: $text-link;
+         text-decoration: none;
+
+         &:hover {
+             color: $yellow-color;
+         }
+         }
+     }
+    }
+}
+
+.last-footer {
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 2rem;
+  
+
+   p {
+       font-family: $inter;
+       font-size: 1.4rem;
+       line-height: 2rem;
+       letter-spacing: 0.2px;
+       font-weight: 400;
+       color: #8d8d8d;
+       cursor: pointer;
+   }
+}

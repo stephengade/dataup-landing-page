@@ -1,0 +1,138 @@
+// hamburger 
+
+.hamburger {
+  position: relative;
+  z-index: 1;
+  right: 1rem;
+  top: 1rem;
+  height: 0.2rem;
+  width: 0.5rem;
+  cursor: pointer;
+  display: block;
+
+
+
+  span {
+    width: 2.5rem;
+    height: 0.2rem;
+    background-color: $yellow-color;
+    position: absolute;
+    top: 0.5rem;
+    margin-bottom: .5rem;
+    right: 0;
+    transition: all .1s ease-in-out;
+
+
+    &.opacity {
+      background: none;
+      transition: all .25s ease-in-out;
+      
+
+      &::after {
+        width: 3rem;
+        background-color: #fff;
+        transform: rotate(-135deg);
+        transition: all .5s ease-in-out;
+        top: 10px;
+
+      }
+
+      &::before {
+        background-color: $yellow-color;
+        transform: rotate(135deg);
+        transition: all .5s ease-in-out;
+        top: 10px;
+
+
+      }
+
+
+    }
+
+
+    &::before {
+      content: '';
+      width: 3rem;
+      height: 0.2rem;
+      background-color: $text-white;
+      position: absolute;
+      top: -0.5rem;
+
+    }
+
+    &::after {
+      content: '';
+      width: 2rem;
+      height: 0.2rem;
+      background-color: $text-white;
+      position: absolute;
+      top: 0.5rem;
+    }
+
+  }
+}
+
+
+// mobile nav
+
+@media only screen and (min-width: 0px) and (max-width: 479px),
+(min-width: 480px) and (max-width: 767px) {
+
+ 
+ .hamburger {
+   position: absolute;
+ }
+ nav {
+   position: relative;
+ }
+
+.mobile-buttons {
+   width: 100%;
+   display: flex!important;
+  margin: 2rem auto;
+  justify-content: center;
+
+  button {
+    margin-bottom: 1rem;
+  }
+
+ 
+}
+
+
+
+
+
+  .navbar {
+    flex-direction: column!important;
+  }
+
+    .nav-menu {
+       width: 100vw;
+       height: 100vh;
+       position: relative;
+      
+      
+       ul {
+         flex-direction: column;
+         align-items: center;
+         margin: 2rem auto!important;
+
+    
+         li {
+           margin-top: 4rem;
+
+           a {
+             font-weight: 900;
+              padding: .7rem!important;
+
+              &:hover {
+                border-style: solid;
+
+              }
+           }
+         }
+       }
+    }
+
+}
